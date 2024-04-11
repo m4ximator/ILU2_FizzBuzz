@@ -2,13 +2,14 @@ package game;
 
 public class GameBowling {
 	
+	private int score=0;
 	
-	void roll(int nbQuilles) {
-		
+	public void roll(int nbQuilles) {
+		score+=nbQuilles;
 	}
 	
 	
-	int score() {
-		return 0;
+	public int score() {
+		return score ;
 	}
 }
