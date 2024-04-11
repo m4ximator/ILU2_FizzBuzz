@@ -30,7 +30,7 @@ class GameTest {
 	
 	@Test
 	void test20Roll1 () {
-		int score=0;
+		
 		for (int i=0;i<20;i++)
 			game.roll(1);
 		assertEquals(20,game.score());
@@ -38,7 +38,6 @@ class GameTest {
 	
 	@Test
 	void test10Roll1And10Roll2 () {
-		int score=0;
 		for (int i=0;i<20;i++) {
 			if(i<10)
 				game.roll(1);
